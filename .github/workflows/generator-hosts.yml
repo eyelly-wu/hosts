@@ -22,6 +22,6 @@ jobs:
           git commit -m 'update hosts'
 
       - name: git push
-              uses: ad-m/github-push-action@master
-              with:
-                github_token: ${{ secrets.PUBLISH_TOKEN }}
+        uses: ad-m/github-push-action@master
+        with: 
+           github_token: ${{ secrets.PUBLISH_TOKEN }}
