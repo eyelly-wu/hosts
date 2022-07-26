@@ -1,0 +1,27 @@
+name: auto generate hosts file
+
+on:
+  schedule:
+    - cron: '0/10 * * * *'
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: install dependence
+        run: npm i -g pnpm && pnpm i
+
+      - name: generate by hosts-generator
+        run: npm run g
+
+      - name: commit the generated hosts files
+        run: |
+          git add .
+          git commit -m 'update hosts'
+
+      - name: git push
+              uses: ad-m/github-push-action@master
+              with:
+                github_token: ${{ secrets.PUBLISH_TOKEN }}
