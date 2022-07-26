@@ -19,6 +19,8 @@ jobs:
 
       - name: commit the generated hosts files
         run: |
+          git config --global user.email "eyelly.wu@gmail.com"
+          git config --global user.name "Eyelly Wu"  
           git add .
           git commit -m 'update hosts'
 
