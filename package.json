@@ -1,0 +1,26 @@
+{
+  "name": "hosts",
+  "version": "1.0.0",
+  "description": "custom hosts",
+  "main": "index.js",
+  "scripts": {
+    "g": "hg g"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eyelly-wu/hosts.git"
+  },
+  "keywords": [
+    "hosts",
+    "github"
+  ],
+  "author": "eyelly",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/eyelly-wu/hosts/issues"
+  },
+  "homepage": "https://github.com/eyelly-wu/hosts#readme",
+  "dependencies": {
+    "hosts-generator": "^1.0.2"
+  }
+}
