@@ -51,4 +51,5 @@ module.exports = {
       ],
     },
   ],
+  timezone: 'Asia/Shanghai',
 }
