@@ -22,7 +22,7 @@ jobs:
           git config --global user.email "eyelly.wu@gmail.com"
           git config --global user.name "Eyelly Wu"  
           git add .
-          git commit -m 'update hosts'
+          git commit -m 'chore: update hosts'
 
       - name: git push
         uses: ad-m/github-push-action@master
