@@ -1,17 +1,17 @@
 lockfileVersion: 5.4
 
 specifiers:
-  hosts-generator: ^1.2.0
+  hosts-generator: ^1.2.1
 
 dependencies:
-  hosts-generator: registry.npmmirror.com/hosts-generator/1.2.0
+  hosts-generator: registry.npmmirror.com/hosts-generator/1.2.1
 
 packages:
 
-  registry.npmmirror.com/@types/node/18.11.9:
-    resolution: {integrity: sha512-CRpX21/kGdzjOpFsZSkcrXMGIBWMGNIHXXBVFSH+ggkftxg+XYP20TESbh+zFvFj3EQOl5byk0HTRn1IL6hbqg==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@types/node/-/node-18.11.9.tgz}
+  registry.npmmirror.com/@types/node/18.11.10:
+    resolution: {integrity: sha512-juG3RWMBOqcOuXC643OAdSA525V44cVgGV6dUDuiFtss+8Fk5x1hI93Rsld43VeJVIeqlP9I7Fn9/qaVqoEAuQ==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@types/node/-/node-18.11.10.tgz}
     name: '@types/node'
-    version: 18.11.9
+    version: 18.11.10
     dev: false
     optional: true
 
@@ -21,7 +21,7 @@ packages:
     version: 2.10.0
     requiresBuild: true
     dependencies:
-      '@types/node': registry.npmmirror.com/@types/node/18.11.9
+      '@types/node': registry.npmmirror.com/@types/node/18.11.10
     dev: false
     optional: true
 
@@ -347,10 +347,10 @@ packages:
     engines: {node: '>=8'}
     dev: false
 
-  registry.npmmirror.com/hosts-generator/1.2.0:
-    resolution: {integrity: sha512-uSG+ZbiLJpqPHIlXpHwO+xUjnWkmvMtS23+7yOhPsIs6r3dvLF5cDUdo7AHKzqwooV+z2mGzVx9Fe5JFM6/Grw==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/hosts-generator/-/hosts-generator-1.2.0.tgz}
+  registry.npmmirror.com/hosts-generator/1.2.1:
+    resolution: {integrity: sha512-HRUhd6ohzhJzP8DMO2dAJGtP49p9X/v3DoTcuNtgZMn17HyXM7wLrQmkNKl3EB4U5hBELERPc+2e+R1BOyABKQ==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/hosts-generator/-/hosts-generator-1.2.1.tgz}
     name: hosts-generator
-    version: 1.2.0
+    version: 1.2.1
     hasBin: true
     dependencies:
       commander: registry.npmmirror.com/commander/9.4.1

@@ -21,6 +21,6 @@
   },
   "homepage": "https://github.com/eyelly-wu/hosts#readme",
   "dependencies": {
-    "hosts-generator": "^1.2.0"
+    "hosts-generator": "^1.2.1"
   }
 }
