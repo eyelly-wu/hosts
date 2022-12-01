@@ -25,6 +25,7 @@
   },
   "devDependencies": {
     "@eyelly/prettier-config": "^1.0.0",
+    "@types/node": "^18.11.10",
     "@vercel/node": "^2.7.0",
     "prettier": "^2.8.0"
   }

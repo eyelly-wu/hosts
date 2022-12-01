@@ -2,6 +2,7 @@ lockfileVersion: 5.4
 
 specifiers:
   '@eyelly/prettier-config': ^1.0.0
+  '@types/node': ^18.11.10
   '@vercel/node': ^2.7.0
   hosts-generator: ^1.2.1
   prettier: ^2.8.0
@@ -11,6 +12,7 @@ dependencies:
 
 devDependencies:
   '@eyelly/prettier-config': registry.npmmirror.com/@eyelly/prettier-config/1.0.0
+  '@types/node': registry.npmmirror.com/@types/node/18.11.10
   '@vercel/node': registry.npmmirror.com/@vercel/node/2.7.0
   prettier: registry.npmmirror.com/prettier/2.8.0
 
@@ -96,8 +98,6 @@ packages:
     resolution: {integrity: sha512-juG3RWMBOqcOuXC643OAdSA525V44cVgGV6dUDuiFtss+8Fk5x1hI93Rsld43VeJVIeqlP9I7Fn9/qaVqoEAuQ==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@types/node/-/node-18.11.10.tgz}
     name: '@types/node'
     version: 18.11.10
-    dev: false
-    optional: true
 
   registry.npmmirror.com/@types/yauzl/2.10.0:
     resolution: {integrity: sha512-Cn6WYCm0tXv8p6k+A8PvbDG763EDpBoTzHdA+Q/MF6H3sapGjCm9NzoaJncJS9tUKSuCoDs9XHxYYsQDgxR6kw==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@types/yauzl/-/yauzl-2.10.0.tgz}
