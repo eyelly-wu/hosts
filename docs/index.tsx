@@ -13,7 +13,7 @@ export default function () {
   return (
     <>
       <H1>概述</H1>
-      用于优化部分国外网站由于DNS污染导致网页访问速度慢的问题
+      用于优化部分国外网站由于 DNS 污染导致网页访问速度慢的问题
       <H1>原理</H1>
       实现上述目标依赖于如下工具提供的能力：
       <Break />
@@ -22,17 +22,17 @@ export default function () {
           <Link href="https://github.com/eyelly-wu/hosts-generator">
             hosts-generator
           </Link>
-          ：获取指定域名IP并生成hosts文件
+          ：获取指定域名 IP 并生成 hosts 文件
         </ListItem>
         <ListItem>
           <Link href="https://github.com/features/actions">GitHub Actions</Link>
-          ：定时任务，每10分钟自动更新hosts
+          ：定时任务，每10分钟自动更新 hosts
         </ListItem>
         <ListItem>
           <Link href="https://vercel.com/docs/concepts/functions/serverless-functions">
             Vercel Serverless Functions
           </Link>
-          ：部署了函数接口，即使GitHub不能访问也能获取到最新的hosts文件
+          ：部署了函数接口，即使 GitHub 不能访问也能获取到最新的 hosts 文件
         </ListItem>
         <ListItem>
           <Link href="https://swh.app/zh">Switch Hosts</Link>
@@ -46,7 +46,7 @@ export default function () {
       <br />
       可以在 `Switch Hosts`
       配置远程URL：`https://hosts.eyelly.top/api/getHosts?name=github`
-      来获取最新hosts
+      来获取最新 hosts
       <CodeBlock langType="text" code={getHosts('github')} />
     </>
   )

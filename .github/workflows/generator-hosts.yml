@@ -17,6 +17,9 @@ jobs:
       - name: generate by hosts-generator
         run: npm run g
 
+      - name: update Readme.md
+        run: npm run docs
+
       - name: commit the generated hosts files
         run: |
           git config --global user.email "eyelly.wu@gmail.com"
@@ -26,5 +29,5 @@ jobs:
 
       - name: git push
         uses: ad-m/github-push-action@master
-        with: 
-           github_token: ${{ secrets.PUBLISH_TOKEN }}
+        with:
+          github_token: ${{ secrets.PUBLISH_TOKEN }}
