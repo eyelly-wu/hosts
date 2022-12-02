@@ -6,7 +6,7 @@ module.exports = {
       domainNames: [
         {
           name: 'github.com',
-          description:'home page',
+          description: 'home page',
         },
         'collector.github.com',
         'api.github.com',
@@ -48,8 +48,10 @@ module.exports = {
         'media.githubusercontent.com',
         'objects.githubusercontent.com',
         'copilot-proxy.githubusercontent.com',
+        // 这里可以补充 github 缺少的域名
       ],
     },
+    // 后续可以补充其他类型的域名类型分类及域名列表
   ],
   timezone: 'Asia/Shanghai',
 }

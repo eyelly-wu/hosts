@@ -4,7 +4,8 @@
   "description": "custom hosts",
   "main": "index.js",
   "scripts": {
-    "g": "hg g"
+    "g": "hg g",
+    "docs": "jtm run"
   },
   "repository": {
     "type": "git",
@@ -27,6 +28,7 @@
     "@eyelly/prettier-config": "^1.0.0",
     "@types/node": "^18.11.10",
     "@vercel/node": "^2.7.0",
+    "jsx-to-md": "^0.3.0",
     "prettier": "^2.8.0"
   }
 }
