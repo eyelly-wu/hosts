@@ -5,7 +5,7 @@ specifiers:
   '@types/node': ^18.11.10
   '@vercel/node': ^2.7.0
   hosts-generator: ^1.2.1
-  jsx-to-md: ^0.3.0
+  jsx-to-md: 0.4.0
   prettier: ^2.8.0
 
 dependencies:
@@ -15,7 +15,7 @@ devDependencies:
   '@eyelly/prettier-config': registry.npmmirror.com/@eyelly/prettier-config/1.0.0
   '@types/node': registry.npmmirror.com/@types/node/18.11.10
   '@vercel/node': registry.npmmirror.com/@vercel/node/2.7.0
-  jsx-to-md: registry.npmmirror.com/jsx-to-md/0.3.0
+  jsx-to-md: registry.npmmirror.com/jsx-to-md/0.4.0
   prettier: registry.npmmirror.com/prettier/2.8.0
 
 packages:
@@ -1213,10 +1213,10 @@ packages:
     hasBin: true
     dev: true
 
-  registry.npmmirror.com/jsx-to-md/0.3.0:
-    resolution: {integrity: sha512-Qq5pRw7UOCHWGiuUdIqBzZ2CRiY0HL7BDPO13qJrKFQg3pedM8YVhMqeLqBezflJp/iTRqftNsF/OpnpkkFMZw==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/jsx-to-md/-/jsx-to-md-0.3.0.tgz}
+  registry.npmmirror.com/jsx-to-md/0.4.0:
+    resolution: {integrity: sha512-9IeXQf5VhIKH0ngoyECRpMueuqbgX9FPrIibbkXYZ9zK/4nxzC1AygVT9Hl2yP3HhYUm+Pt966BaQIx8FO+isQ==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/jsx-to-md/-/jsx-to-md-0.4.0.tgz}
     name: jsx-to-md
-    version: 0.3.0
+    version: 0.4.0
     hasBin: true
     dependencies:
       '@types/node': registry.npmmirror.com/@types/node/18.11.10
