@@ -4,12 +4,12 @@ specifiers:
   '@eyelly/prettier-config': ^1.0.0
   '@types/node': ^18.11.10
   '@vercel/node': ^2.7.0
-  hosts-generator: ^1.2.1
+  hosts-generator: 1.2.2
   jsx-to-md: 0.4.0
   prettier: ^2.8.0
 
 dependencies:
-  hosts-generator: registry.npmmirror.com/hosts-generator/1.2.1
+  hosts-generator: registry.npmmirror.com/hosts-generator/1.2.2
 
 devDependencies:
   '@eyelly/prettier-config': registry.npmmirror.com/@eyelly/prettier-config/1.0.0
@@ -1024,10 +1024,10 @@ packages:
       function-bind: registry.npmmirror.com/function-bind/1.1.1
     dev: true
 
-  registry.npmmirror.com/hosts-generator/1.2.1:
-    resolution: {integrity: sha512-HRUhd6ohzhJzP8DMO2dAJGtP49p9X/v3DoTcuNtgZMn17HyXM7wLrQmkNKl3EB4U5hBELERPc+2e+R1BOyABKQ==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/hosts-generator/-/hosts-generator-1.2.1.tgz}
+  registry.npmmirror.com/hosts-generator/1.2.2:
+    resolution: {integrity: sha512-Im6gN/AnYKlQ+3K2Vp/PUqIgi6F2uiQQarx4qkDne7AD8EvacJA9qOOLxP7s+OpTpYTc1kxhPQZbaie1Dvwb3w==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/hosts-generator/-/hosts-generator-1.2.2.tgz}
     name: hosts-generator
-    version: 1.2.1
+    version: 1.2.2
     hasBin: true
     dependencies:
       commander: registry.npmmirror.com/commander/9.4.1
@@ -1541,6 +1541,7 @@ packages:
     name: puppeteer
     version: 15.5.0
     engines: {node: '>=14.1.0'}
+    deprecated: < 18.1.0 is no longer supported
     requiresBuild: true
     dependencies:
       cross-fetch: registry.npmmirror.com/cross-fetch/3.1.5

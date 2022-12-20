@@ -22,7 +22,7 @@
   },
   "homepage": "https://github.com/eyelly-wu/hosts#readme",
   "dependencies": {
-    "hosts-generator": "^1.2.1"
+    "hosts-generator": "1.2.2"
   },
   "devDependencies": {
     "@eyelly/prettier-config": "^1.0.0",
