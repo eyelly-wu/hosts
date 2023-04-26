@@ -1,11 +1,11 @@
-import React, {
+import {
   Break,
   CodeBlock,
   H1,
   H2,
   Link,
   ListItem,
-  UnorderList,
+  UnorderedList,
 } from 'jsx-to-md'
 import { getHosts } from './utils'
 
@@ -17,7 +17,7 @@ export default function () {
       <H1>原理</H1>
       实现上述目标依赖于如下工具提供的能力：
       <Break />
-      <UnorderList>
+      <UnorderedList>
         <ListItem>
           <Link href="https://github.com/eyelly-wu/hosts-generator">
             hosts-generator
@@ -26,7 +26,7 @@ export default function () {
         </ListItem>
         <ListItem>
           <Link href="https://github.com/features/actions">GitHub Actions</Link>
-          ：定时任务，每10分钟自动更新 hosts
+          ：定时任务，每60分钟自动更新 hosts
         </ListItem>
         <ListItem>
           <Link href="https://vercel.com/docs/concepts/functions/serverless-functions">
@@ -36,13 +36,13 @@ export default function () {
         </ListItem>
         <ListItem>
           <Link href="https://swh.app/zh">Switch Hosts</Link>
-          ：可以灵活配置远程hosts，并且可以设置定时更新
+          ：可以灵活配置远程 hosts，并且可以设置定时更新
         </ListItem>
-      </UnorderList>
+      </UnorderedList>
       <H1>域名列表</H1>
       <H2>GitHub</H2>
-      这里罗列 `GitHub` 相关域名的hosts信息，如果域名有缺少的，可以在根目录下的
-      `hgrc.js` 文件中进行补充
+      这里罗列 `GitHub` 相关域名的 hosts
+      信息，如果域名有缺少的，可以在根目录下的 `hgrc.js` 文件中进行补充
       <br />
       可以在 `Switch Hosts`
       配置远程URL：`https://hosts.eyelly.top/api/getHosts?name=github`
