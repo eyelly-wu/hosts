@@ -71,7 +71,7 @@ function Vpn() {
         ]}
       />
       <H2>使用</H2>
-      该服务的官网完整的配套服务：如何上手，相关软件的安装，及后续的售后（目前我未遇到需要售后的情况），那么[开始使用](https://mojie.app/register?aff=yqKCB1qB)吧
+      该服务的官网完整的配套服务：如何上手，相关软件的安装，及后续的售后（目前我未遇到需要售后的情况），那么[开始使用](https://mojie.xn--yrs494l.com/register?aff=IR5nRtu2)吧
     </>
   )
 }
@@ -97,7 +97,7 @@ export default function () {
             <Link href="https://github.com/features/actions">
               GitHub Actions
             </Link>
-            ：定时任务，每60分钟自动更新 hosts
+            ：定时任务，每24小时自动更新 hosts
           </>,
           <>
             <Link href="https://vercel.com/docs/concepts/functions/serverless-functions">
